@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CalculatorTitle = () => {
+const CalculatorTitle = (props) => {
     return (
         <div className="Calculator-title">
-           {props.value} 
+            {props.value} 
         </div>
     )
 }
