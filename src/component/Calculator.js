@@ -71,9 +71,9 @@ class Calculator extends Component {
                         <Button label={'/'} handleClick = {this.handleClick} type='action'/>
                     </div>
                     <div className="button-row">
-                        <Button label={'7'} handleClick = {this.handleClick} type='input'/> 
-                        <Button label={'8'} handleClick = {this.handleClick} type='input'/> 
-                        <Button label={'9'} handleClick = {this.handleClick} type='input'/>
+                        <Button label={'1'} handleClick = {this.handleClick} type='input'/> 
+                        <Button label={'2'} handleClick = {this.handleClick} type='input'/> 
+                        <Button label={'3'} handleClick = {this.handleClick} type='input'/>
                         <Button label={'*'} handleClick = {this.handleClick} type='action'/> 
                     </div> 
                     <div className="button-row">
@@ -83,9 +83,9 @@ class Calculator extends Component {
                         <Button label={'-'} handleClick = {this.handleClick} type='action'/> 
                     </div> 
                     <div className="button-row"> 
-                        <Button label={'1'} handleClick = {this.handleClick} type='input'/> 
-                        <Button label={'2'} handleClick = {this.handleClick} type='input'/> 
-                        <Button label={'3'} handleClick = {this.handleClick} type='input'/> 
+                        <Button label={'7'} handleClick = {this.handleClick} type='input'/> 
+                        <Button label={'8'} handleClick = {this.handleClick} type='input'/> 
+                        <Button label={'9'} handleClick = {this.handleClick} type='input'/> 
                         <Button label={'+'} handleClick = {this.handleClick} type='action'/> 
                     </div> 
                     <div className="button-row"> 
